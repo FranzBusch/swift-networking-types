@@ -16,7 +16,7 @@ jobs:
 
   tests:
     name: Tests
-    uses: swiftlang/github-workflows/.github/workflows/package_test.yml@main
+    uses: swiftlang/github-workflows/.github/workflows/package_test.yml@fb-install-vsb
     with:
       # Also test release builds
       linux_command: |
